@@ -1,0 +1,109 @@
+{
+    "name" : "Spell Caster",
+    "name_jp" : "スペルキャスター",
+    "color": "4471bb",
+    "url" : "https://blue-protocol-db.com/classes/spell-caster/",
+    "information" : {
+        "overview" : "Spell Caster is a range/mage class equipped with a staff. This class can manipulate the elements on the battle field and has a gauge called “Mana“, which is required to cast some spells. Mana doesn’t recover over time and needs to be charged up by using certain skills. More effective in party battles.",
+        "image" : "https://i.imgur.com/4hBprLR.png"
+    },
+    "stats" : {
+        "level_1" : {
+            "basic_stats" : {
+                "strength": "45%",
+                "endurance": "50%",
+                "dexterity": "55%",
+                "intelligence": "67%",
+                "spirit": "60%"
+            },
+            "attack" : {
+                "attack": "209",
+                "crit_chance": "7%",
+                "crit_damage": "41%" 
+            },
+            "defense" : {
+                "defense_power": "50",
+                "recovery_power": "72"
+            }
+        }
+    },
+    "skill_tree" : [
+        {
+            "name": "Fire Blast",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Consumes mana. Shoots a fireball, which can be charged up to 3 levels. Charged level increases the damage of the fireball.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_11_1_1.png"
+        }, {
+            "name": "Blizzard",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Places a chargeable snowstorm, which slows and damages enemies in it. Charge time increases the size of the storm and damage.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_11_3_1.png"
+        },{
+            "name": "Flame Grenade",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Sends a ball of fire which explodes when touching the enemy. Can be charged up to 3 times.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1113.png"
+        }, {
+            "name": "Lighting",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Shoots lightning bolts, which can be charged up to 3 levels. Charged level increases the amount of lightning bolts. At max charge you will get charge time reduction buff for all your skills.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1106.png"
+        },{
+            "name": "Thunder Mine",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Summons a lightning mine following the enemy to the hit and causes an explosion. At each charge level, a mine is added.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1115.png"
+        },
+        {
+            "name": "Frigid Clash",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Summons an iceberg over the enemy. Competence can be charged, with each load an iceberg is added.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1110.png"
+        },{
+            "name": "Follow Bullet",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Summons two crystal. For each skill used, the crystals will inflict damage on the enemy depending on the element of the skill.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1116.png"
+        },{
+            "name": "Meteor Inferno",
+            "type": "ultimate",
+            "upgrade": "This skill cannot be upgraded.",
+            "description": "Summons a huge meteor, which deals enormous damage.",
+            "icon": "https://blueprotocoldb.com/storage/UI_SpecialArts_06-1.png"
+        },{
+            "name": "~~Heal Skill~~",
+            "type": "utility",
+            "cooldown": "-",
+            "upgrade": "~~This skill can be upgraded 2 times on the skill board.~~",
+            "description": "This skill was changed during the closed beta and will be updated as soon as possible.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1114.png"
+        }, {
+            "name": "Trinity Shot | Left Click",
+            "type": "primary",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Chain attack, which restores mana.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActionL_Main.png"
+        }, {
+            "name": "Sub Action | Right Click",
+            "type": "secondary",
+            "cooldown": "2s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Shoots trinity bolts, which recover mana.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActionL_Sub.png"
+        }
+    ]
+}

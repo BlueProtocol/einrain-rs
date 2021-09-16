@@ -1,0 +1,107 @@
+{
+    "name" : "Twin Striker",
+    "name_jp" : "ツインストライカー",
+    "color": "6dad18",
+    "url" : "https://blue-protocol-db.com/classes/twin-striker/",
+    "information" : {
+        "overview" : "Twin Striker is a melee DPS class equipped with two powerful axes. A class which deals constant damage and has skills which keeps them alive as long as they deal damage. The class has a combo meter that grants the character bonus damage for every successful attack. Combo meter is X%/130% bonus damage. ",
+        "image" : "https://i.imgur.com/WDNrMWs.png"
+    },
+    "stats" : {
+        "level_1" : {
+            "basic_stats" : {
+                "strength": "60%",
+                "endurance": "60%",
+                "dexterity": "50%",
+                "intelligence": "45%",
+                "spirit": "45%"
+            },
+            "attack" : {
+                "attack": "158",
+                "crit_chance": "6%",
+                "crit_damage": "46%" 
+            },
+            "defense" : {
+                "defense_power": "62",
+                "recovery_power": "61"
+            }
+        }
+    },
+    "skill_tree" : [
+        {
+            "name": "Brutal Blow",
+            "type": "tactical",
+            "cooldown": "12s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Launches a rotating slash attack in a wide area in front of you.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_07_1_1-1.png"
+        },{
+            "name": "Fall Impact",
+            "type": "tactical",
+            "cooldown": "6s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Attacks enemies by leaping forward and landing on the ground.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_07_2_1.png"
+        },{
+            "name": "Crimson Blow",
+            "type": "tactical",
+            "cooldown": "8s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Launches a fire spinning attack that can be charged up to 3 times.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_730.png"
+        },{
+            "name": "Storm Rush",
+            "type": "tactical",
+            "cooldown": "15s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Makes a forward, two side-by-side attack in a wide area.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_07_3_1-1.png"
+        },{
+            "name": "War Cry",
+            "type": "tactical",
+            "cooldown": "26s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Grants Super Armor status for a fixed time. (You won’t be staggered when you get hit by enemies in this state).",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_07_4_1-1.png"
+        },{
+            "name": "Lava Impact",
+            "type": "tactical",
+            "cooldown": "6s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Makes an attack by jumping and hitting the ground that can be used up to 3 times in a row. Fire type attack.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_731-1.png"
+        },{
+            "name": "Burning Rush",
+            "type": "tactical",
+            "cooldown": "12s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Throws slashes of fire attacking enemies. The combo increases depending on the charge level.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_732.png"
+        },{
+            "name": "Vortex Impact",
+            "type": "ultimate",
+            "upgrade": "This skill cannot be upgraded.",
+            "description": "Rushes towards the enemy and rises in the air. Whirl and send the enemy back to the ground.",
+            "icon": "https://blueprotocoldb.com/storage/UI_SpecialArts_06-1.png"
+        },{
+            "name": "Blood Axe",
+            "type": "utility",
+            "cooldown": "26s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Allows you to absorb HP when you inflict damage to enemies.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_723.png"
+        },{
+            "name": "Beast Swing | Left Click",
+            "type": "primary",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Chain attack, if you press any direction key during the last attack, you will jump into the air, which allows you to use your other skills mid air.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActionL_Main.png"
+        },{
+            "name": "Axe Tornado | Right Click",
+            "type": "secondary",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Spin attack, which reduces incoming damages while you are spinning and makes you immune to crowd control.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActionL_Sub.png"
+        }
+    ]
+}

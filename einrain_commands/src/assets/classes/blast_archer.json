@@ -1,0 +1,106 @@
+{
+    "name" : "Blast Archer",
+    "name_jp" : "ブラストアーチャー",
+    "color": "efb932",
+    "url" : "https://blue-protocol-db.com/classes/blast-archer/",
+    "information" : {
+        "overview" : "Blast Archer is a long range DPS/support class equipped with a Bow. This class is agile and deals increased damage on an enemy's weakspots. The class has several attack, buff / debuff and support abilities. They can also use ground element skills to apply more effects to enemies.",
+        "image" : "https://i.imgur.com/JoiOk0k.png"
+    },
+    "stats" : {
+        "level_1" : {
+            "basic_stats" : {
+                "strength": "55%",
+                "endurance": "50%",
+                "dexterity": "65%",
+                "intelligence": "50%",
+                "spirit": "50%"
+            },
+            "attack" : {
+                "attack": "159",
+                "crit_chance": "9%",
+                "crit_damage": "46%" 
+            },
+            "defense" : {
+                "defense_power": "50",
+                "recovery_power": "65"
+            }
+        }
+    },
+    "skill_tree" : [
+        {
+            "name": "Charge Arrow",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Shoots a chargeable arrow, which deals damage according to the charged amount. This skill will deal increased damage if you hit a weak spot. Knockback effect if you charge the arrow.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_06_1_1.png"
+        },{
+            "name": "Lethal Shower",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Shoots multiple arrows at the enemy and applies a poisoning effect.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_06_3_1.png"
+        },{
+            "name": "Hypnoblast Shoots",
+            "type": "tactical",
+            "cooldown": "18s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Throws an arrow on the enemies and puts them to sleep.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_617.png"
+        },{
+            "name": "Negative Resonance",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Skill applies a Quick Interval Buff.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_06_4_1.png"
+        },{
+            "name": "Stampede Arrow",
+            "type": "tactical",
+            "cooldown": "13s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Shoots multiple arrows at the enemy and apply a poisoning effect.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_06_2_1.png"
+        },{
+            "name": "Hunter Spirit",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Launches a movement speed buff on yourself and your group.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_618.png"
+        },{
+            "name": "Dust Force",
+            "type": "tactical",
+            "cooldown": "20s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Throws an arrow to activate a ground AOE slowing enemies and inflicting damage over time.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_619.png"
+        },{
+            "name": "Mortal Gravity",
+            "type": "ultimate",
+            "upgrade": "This skill cannot be upgraded.",
+            "description": "Fires a gravitational arrow which creates an area attracting enemies to its middle.",
+            "icon": "https://blueprotocoldb.com/storage/UI_SpecialArts_06-1.png"
+        },{
+            "name": "Healing Arrow",
+            "type": "utility",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "An AOE heal arrow, that can heal the team and yourself.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_613.png"
+        },{
+            "name": "Arrow Rush | Left Click",
+            "type": "primary",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Chain attack, which can be casted while moving. The last attack shoots multiple arrows.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActionL_Main.png"
+        },{
+            "name": "Slalom Shot | Right Click",
+            "type": "secondary",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Shoots a powerful arrow. If you press any direction key during the last attack, you will dodge towards the input direction.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActionL_Sub.png"
+        }
+    ]
+}

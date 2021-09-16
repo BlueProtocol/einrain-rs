@@ -1,0 +1,29 @@
+{
+    "aliases": {
+        "af" : "aegis_fighter",
+        "aegis_fighter" : "aegis_fighter",
+        "aegis" : "aegis_fighter",
+        "fighter" : "aegis_fighter",
+
+        "ts" : "twin_striker",
+        "twin_striker" : "twin_striker",
+        "twin" : "twin_striker",
+        "striker" : "twin_striker",
+
+        "ba" : "blast_archer",
+        "blast_archer" : "blast_archer",
+        "blast" : "blast_archer",
+        "archer" : "blast_archer",
+
+        "sc" : "spell_caster",
+        "spell_caster" : "spell_caster",
+        "spell" : "spell_caster",
+        "caster" : "spell_caster"
+    },
+    "list" : {
+        "Aegis Fighter" : "aegis_fighter, af, aegis, fighter",
+        "Twin Striker" : "twin_striker, ts, twin, striker",
+        "Blast Archer" : "blast_archer, ba, blast, archer",
+        "Spell Caster" : "spell_caster, sc, spell, caster"
+    }
+}

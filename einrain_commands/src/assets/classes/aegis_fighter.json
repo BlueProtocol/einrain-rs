@@ -1,0 +1,107 @@
+{
+    "name" : "Aegis Fighter",
+    "name_jp" : "イージスファイター",
+    "color": "b1183c",
+    "url" : "https://blue-protocol-db.com/classes/aegis-fighter/",
+    "information" : {
+        "overview" : "Aegis Fighter is a melee class equipped with a sword and a powerful shield. A class with offensive and defensive skills but mostly focused on survival. The class has a special gauge called “Shield Gauge.” Shield Gauge is necessary to block incoming damage and regenerates if you don’t block. If the Shield Gauge reaches “0”, the shield breaks and you won’t be able to block for a few seconds.",
+        "image" : "https://i.imgur.com/uvEc8tO.png"
+    },
+    "stats" : {
+        "level_1" : {
+            "basic_stats" : {
+                "strength": "60%",
+                "endurance": "65%",
+                "dexterity": "50%",
+                "intelligence": "45%",
+                "spirit": "45%"
+            },
+            "attack" : {
+                "attack": "158",
+                "crit_chance": "5%",
+                "crit_damage": "36%" 
+            },
+            "defense" : {
+                "defense_power": "68",
+                "recovery_power": "62"
+            }
+        }
+    },
+    "skill_tree" : [
+        {
+            "name": "Shield Charge",
+            "cooldown": "12s",
+            "type": "tactical",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Launches an attack by bashing your shield to enemies in front of you. Stuns enemies upon hit. Cannot be used in Shield/Guard break state.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_12_1_1.png"
+        },{
+            "name": "Blow Beat",
+            "type": "tactical",
+            "cooldown": "10s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Launches a shockwave attack to all directions in circular area around you. Enemies hit will be taunted.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_12_2_1.png"
+        },{
+            "name": "Sunrise Charge",
+            "type": "tactical",
+            "cooldown": "12s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Rushes towards the enemy with his shield, causing light damage. If you charge the attack level 2, it will trigger a second combo, if you charge it level 3, it will trigger a third combo and put a Holy debuff.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1230.png"
+        },{
+            "name": "Divide Slash",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Attacks by releasing a slash that penetrates enemies in front of you.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_12_3_1.png"
+        },{
+            "name": "Fortress",
+            "type": "tactical",
+            "cooldown": "25s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Grants a Shield/Guard Up buff status effect to self for a fixed time. Cannot be used in Shield/Guard break state.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActiveArtsL_12_4_1.png"
+        },{
+            "name": "Celestial Pillar",
+            "type": "tactical",
+            "cooldown": "-",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Summons a pillar of light which continuously deals light damage to enemies in range.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1231.png"
+        },{
+            "name": "Crescent Light",
+            "type": "tactical",
+            "cooldown": "12s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board. After the last upgrade, 2 skill modifiers will be unlocked.",
+            "description": "Launches a crescent light slash causing light damage. If you charge it level 2, it will launch two slashes instead of one.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1232.png"
+        },{
+            "name": "Judgment Shield",
+            "type": "ultimate",
+            "upgrade": "This skill cannot be upgraded.",
+            "description": "Launches a shockwave Light attribute attack to the frontal area. Gains a buff that recovers Shield/Guard gauge when using skills. When you successfully block an attack, slightly shortens Ultimate cooldown.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_Special.png"
+        },{
+            "name": "Regeneration",
+            "type": "utility",
+            "cooldown": "26s",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Passive Skill that continuously gives HP back.",
+            "icon": "https://blueprotocoldb.com/storage/UI_PlayerSkill_1233.png"
+        },{
+            "name": "Break Slash | Left Click",
+            "type": "primary",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Chain attack, the 4th attack deals additional damage and applies a damage reduction debuff on the enemy.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActionL_Main.png"
+        },{
+            "name": "Shield Guard – Counter | Right Click",
+            "type": "secondary",
+            "upgrade": "This skill can be upgraded 2 times on the skill board.",
+            "description": "Shielding skill to block incoming damage until Endurance hits “0”. You can activate counter mode by clicking Left Click while holding up the shield.",
+            "icon": "https://blueprotocoldb.com/storage/UI_ActionL_Sub.png"
+        }
+    ]
+}
