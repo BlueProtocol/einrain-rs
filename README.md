@@ -2,6 +2,8 @@
 
 Einrain is a Discord bot made for the game Blue Protocol and the [Blue Protocol Database's](https://blue-protocol-db.com/) Discord server. Although it's still in its infancy, we hope it will come to be an invaluable tool for players of Blue Protocol.
 
+https://user-images.githubusercontent.com/894305/133680208-d51ff017-8632-456a-8861-664e2d6e9dd2.mp4
+
 ### Features
 
 - Slash Commands
@@ -10,6 +12,9 @@ Einrain is a Discord bot made for the game Blue Protocol and the [Blue Protocol 
 - `/help <command>`: Returns information on the given command or all commands
 - `~register <global>`: Registers slash commands with the guild or global (Owner only)
 - `~unregister <global>`: Unregisters slash commands with the guild or global (Owner only)
+- Logging
+- Class information stored in an easy to modify JSON format and serialized at compile time
+- Modularized command structure
 
 ### Setup
 
@@ -29,7 +34,7 @@ Create a Discord Bot Application [here](https://discord.com/developers/applicati
 
 Find the Discord user you want to designate as the "owner". This is the user who will be able to register slash commands with Discord after the bot is running and in a server. Right click on their username and click "Copy ID". Copy and paste the owner's id into your `config.toml` as indicated above.
 
-Go back to the root of the bot's directory and execute the following command to run the bot normally:
+Go back to the root of the bot's directory, set the `RUST_LOG` environement variable to `info` or preferred to activate logging, and execute the following command to run the bot normally:
 ```
 cargo run --release
 ```
