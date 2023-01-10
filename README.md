@@ -10,8 +10,7 @@ https://user-images.githubusercontent.com/894305/133680208-d51ff017-8632-456a-88
 - `/class <class_type>`: Returns all information associated with the selected class
 - `/skills <class_type>`: Returns all skills of the selected class
 - `/help <command>`: Returns information on the given command or all commands
-- `~register <global>`: Registers slash commands with the guild or global (Owner only)
-- `~unregister <global>`: Unregisters slash commands with the guild or global (Owner only)
+- `~register <global>`: Registers or unregisters slash commands with the guild or global (Owner only)
 - Logging
 - Class information stored in an easy to modify JSON format and serialized at compile time
 - Modularized command structure
@@ -30,11 +29,11 @@ log_file = 'log.txt' # Unused
 colour = 12345678 # Unused
 ```
 
-Create a Discord Bot Application [here](https://discord.com/developers/applications). Go to the "Bot" tab on the left. Copy and paste the bot's token into your `config.toml` as indicated above.
+Create a Discord Bot Application [here](https://discord.com/developers/applications). Go to the "Bot" tab on the left. Reset and then copy and paste the bot's token into your `config.toml` as indicated above. Enable the message content intent for "~" prefix commands such as "~register".
 
 Find the Discord user you want to designate as the "owner". This is the user who will be able to register slash commands with Discord after the bot is running and in a server. Right click on their username and click "Copy ID". Copy and paste the owner's id into your `config.toml` as indicated above.
 
-Go back to the root of the bot's directory, set the `RUST_LOG` environement variable to `info` or preferred to activate logging, and execute the following command to run the bot normally:
+Go back to the root of the bot's directory, set the `RUST_LOG` environment variable to `info` or preferred to activate logging, and execute the following command to run the bot normally:
 ```
 cargo run --release
 ```
