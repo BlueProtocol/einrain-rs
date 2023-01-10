@@ -2,7 +2,7 @@ use std::{cmp::Ordering, include_str};
 use serde::{Deserialize, Serialize};
 use lazy_static::lazy_static;
 
-#[derive(Debug, poise::SlashChoiceParameter)]
+#[derive(Debug, poise::ChoiceParameter)]
 pub enum ClassChoice {
     #[name = "Aegis Fighter"]
     AegisFighter,

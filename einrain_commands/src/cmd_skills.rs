@@ -1,4 +1,4 @@
-use poise::serenity::{
+use poise::serenity_prelude::{
     builder::CreateEmbed,
     utils::Colour,
 };
@@ -10,10 +10,8 @@ use super::classes::*;
 #[doc = "Discover detailed information on skills"]
 pub async fn skills(
     ctx: Context<'_>,
-    #[description = "Class type to find information about"] class_type: poise::Wrapper<ClassChoice>,
+    #[description = "Class type to find information about"] class_type: ClassChoice,
 ) -> Result<(), Error> {
-    let class_type = class_type.0;
-
     let class_data = match class_type {
         ClassChoice::AegisFighter => &*CLASS_AEGIS,
         ClassChoice::BlastArcher => &*CLASS_BLAST,

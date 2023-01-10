@@ -1,4 +1,5 @@
-use poise::serenity::builder::CreateEmbed;
+use poise::serenity_prelude as serenity;
+use poise::serenity_prelude::builder::CreateEmbed;
 
 use einrain_utils::{Context, Error};
 

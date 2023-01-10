@@ -6,12 +6,12 @@ pub async fn help(
     ctx: Context<'_>,
     #[description = "Specific command to show help about"] command: Option<String>,
 ) -> Result<(), Error> {
-    poise::defaults::help(
-        ctx,
-        command.as_deref(),
-        "This is an example bot made to showcase features of my custom Discord bot framework",
-        poise::defaults::HelpResponseMode::Ephemeral,
-    )
-    .await?;
+    let config = poise::builtins::HelpConfiguration {
+        extra_text_at_bottom: "This is an example bot made to showcase features of my custom Discord bot framework",
+        ephemeral: true,
+        ..Default::default()
+    };
+
+    poise::builtins::help(ctx, command.as_deref(), config).await?;
     Ok(())
 }

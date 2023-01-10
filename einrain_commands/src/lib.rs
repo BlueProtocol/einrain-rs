@@ -4,6 +4,5 @@ pub mod cmd_id;
 pub mod cmd_ping;
 pub mod cmd_register;
 pub mod cmd_skills;
-pub mod cmd_unregister;
 
 mod classes;

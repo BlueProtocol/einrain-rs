@@ -1,10 +1,8 @@
-use einrain_utils::{Error, PrefixContext};
+use einrain_utils::{Error, Context};
 
-/// Register slash commands in this guild or globally
-///
-/// Run with no arguments to register in guild, run with argument "global" to register globally.
-#[poise::command(owners_only, hide_in_help)]
-pub async fn register(ctx: PrefixContext<'_>, #[flag] global: bool) -> Result<(), Error> {
-    poise::defaults::register_slash_commands(ctx, global).await?;
+/// Register or unregister slash commands in this guild or globally
+#[poise::command(prefix_command, owners_only, hide_in_help)]
+pub async fn register(ctx: Context<'_>) -> Result<(), Error> {
+    poise::builtins::register_application_commands_buttons(ctx).await?;
     Ok(())
 }
