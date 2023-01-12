@@ -28,6 +28,7 @@ pub async fn start() {
     let options = poise::FrameworkOptions {
         commands: vec![
             cmd_class::class(),
+            cmd_embed::embed(),
             cmd_help::help(),
             cmd_id::id(),
             cmd_ping::ping(),

@@ -1,4 +1,5 @@
 pub mod cmd_class;
+pub mod cmd_embed;
 pub mod cmd_help;
 pub mod cmd_id;
 pub mod cmd_ping;
