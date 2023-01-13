@@ -8,8 +8,8 @@ https://user-images.githubusercontent.com/894305/133680208-d51ff017-8632-456a-88
 
 - Slash Commands
 - `/class <class_type>`: Returns all information associated with the selected class
-- `/embed create <title> <content>`: Creates an embed in the current channel with the title and contents
-- `/embed edit <message_id> <title> <content>`: Edits an embed in the current channel with the passed message_id with the title and contents
+- `/embed create`: Creates an embed in the current channel with the given JSON from an Embed Builder like https://glitchii.github.io/embedbuilder/
+- `/embed edit <message_id>`: Edits an embed in the current channel with the give Message ID and JSON
 - `/skills <class_type>`: Returns all skills of the selected class
 - `/help <command>`: Returns information on the given command or all commands
 - `~register <global>`: Registers or unregisters slash commands with the guild or global (Owner only)
