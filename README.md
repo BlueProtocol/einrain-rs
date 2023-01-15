@@ -27,6 +27,7 @@ Create a `config.toml` file in the root of the bot's directory, formatted like
 ```toml
 token = '<bot token here>' # Token for the Discord bot
 owner_id = <bot owners id here> # Discord ID of bot owner for registering and unregistering slash commands
+embed_role_id = <embed role id> # Discord ID of the role allowed to use the `/embed` command
 log_file = 'log.txt' # Unused
 colour = 12345678 # Unused
 ```
