@@ -1,5 +1,5 @@
-mod bot_data;
-mod client;
+pub mod bot_data;
+pub mod client;
 
 pub use bot_data::*;
 pub use client::*;

@@ -13,9 +13,9 @@ use einrain_utils::Data;
 use handlers::*;
 
 pub async fn start() {
-    tracing_subscriber::fmt()
-        .with_env_filter(tracing_subscriber::EnvFilter::from_default_env())
-        .init();
+tracing_subscriber::fmt()
+    .with_env_filter(tracing_subscriber::EnvFilter::from_default_env())
+    .init();
     
     info!("Starting Einrain...");
     
@@ -63,7 +63,7 @@ pub async fn start() {
         .token(config.token())
         .intents(serenity::GatewayIntents::non_privileged() | serenity::GatewayIntents::MESSAGE_CONTENT)
         .setup(move |_ctx, _ready, _framework| {
-            Box::pin(async move {Ok(Data {})})
+            Box::pin(async move {Ok(Data { config })})
         });
 
     info!("Starting client...");

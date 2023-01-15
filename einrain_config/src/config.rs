@@ -6,6 +6,7 @@ use std::{fs, io};
 pub struct BotConfig {
     token: String,
     owner_id: u64,
+    embed_role_id: u64,
     log_file: String,
     colour: u32,
 }
@@ -18,6 +19,7 @@ impl BotConfig {
                     let default_cfg = BotConfig {
                         token: "AAAAAAAAAAAAAAAAAAAA.AAAAAAA.AAAAAAAAAAAAAA".to_string(),
                         owner_id: 123456789012345678,
+                        embed_role_id: 123456789012345678,
                         log_file: "log.txt".to_string(),
                         colour: 12345678,
                     };
@@ -53,6 +55,10 @@ impl BotConfig {
 
     pub fn owner_id(&self) -> u64 {
         self.owner_id
+    }
+
+    pub fn embed_role_id(&self) -> u64 {
+        self.embed_role_id
     }
 
     pub fn log_file(&self) -> &String {
